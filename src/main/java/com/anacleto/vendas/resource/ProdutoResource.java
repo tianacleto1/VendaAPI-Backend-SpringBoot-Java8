@@ -1,7 +1,7 @@
 package com.anacleto.vendas.resource;
 
 import com.anacleto.vendas.model.Produto;
-import com.anacleto.vendas.repository.Produtos;
+import com.anacleto.vendas.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,10 +14,10 @@ import java.util.List;
 public class ProdutoResource {
 
     @Autowired
-    private Produtos produtos;
+    private ProdutoRepository produtoRepository;
 
     @GetMapping
     public List<Produto> listar() {
-        return produtos.findAll();
+        return produtoRepository.findAll();
     }
 }
