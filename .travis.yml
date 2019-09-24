@@ -6,7 +6,7 @@ dist: trusty
 
 addons:
   sonarcloud:
-    organization: "tianacleto1@github"
+    organization: "tianacleto1"
     token:
       secure: $SONAR_TOKEN
 
