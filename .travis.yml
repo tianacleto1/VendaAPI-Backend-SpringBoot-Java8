@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "tianacleto1"
     token:
-      secure: $SONAR_TOKEN
+      secure: "WB1q6x5bu8wwG4uw4RotquBRPtICaYe1ZM++u5Nf42EsGEWmBUO0mW6AsLdeb+oxAJcSdB8ALlKU+YZuVwT9qgoWYYJz8FNi7kHd30Yty+7rvBcZiV1pPVM/mHG8JGxeg25hXP4hBG83bwuzx2IOT0gKb/HgoFwavNz0oAN6c2cNazx5U9IB//gNnP5Oh/HSRi+hbPCbsfpK98dUugwyYbt9cQtzJWjCETu3BFpc9yMm5oTF1krMy5odx4bg9U2f6bbuJRjsMYjrAzZecoPKzwAwwWJnjDURlXMBdfNPL5H0GQ6su2JEUT/VHsflA8E/XsRznGzYUNGlSVe0SErvr1jsJH1omEuG89GpxFo6tQhL1RKJrbCi095tucm9UJeOgF3j7RYxs0fF2IdgfzQ4tuk3Wq/oitEZSGPjOkNOdyElmDlYP5VSfuRMkw14v5uvXkHPsoFCweWU/0AfmJmHveOUfkml8LnGnSKkhbaoBYJtYnDoxmevvZrwtJrsgtTlYnaZWLbl8iX29l3FxpOSoEPMOAy0bygChKCtk92kzbvy5ombzpijidCRpfrryU+JFWZFC0dBJBNMWd+CFdPw8zbiVs1RgnW53U+CzjGtw3q9ZhJtK8L+JbBLaZ04hhCjhYu7XOxY6S4JdsCGU+0yP11FinATtt2OyItUi8Gji04="
 
 script:
   # other script steps might be done before running the actual analysis
